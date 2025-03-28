@@ -29,6 +29,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+/curl-scripts
 
 ### VS Code ###
 .vscode/
