@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: flix
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/flix
+    username: danilo
+    password: danilo
+    driver-class-name: h2.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+flix:
+  security:
+    secret: palavra-secreta
